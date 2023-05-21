@@ -12,6 +12,10 @@ const PortfolioComponent = () => {
   const [error, setError] = useState(false);
 
   useEffect(() => {
+    if (!chain || !chain.id) {
+      setError("Please connect wallet");
+      return;
+    }
     if (!networks[chain.id]) {
       setError("Chain Not Supported");
       return;
