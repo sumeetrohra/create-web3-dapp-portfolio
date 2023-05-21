@@ -1,0 +1,23 @@
+.container {
+  color: white;
+}
+
+.tokenName {
+  font-weight: 500;
+}
+
+.list {
+  list-style: none;
+}
+
+.listItem {
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  margin-right: 8px;
+  width: 36px;
+  height: 36px;
+}
