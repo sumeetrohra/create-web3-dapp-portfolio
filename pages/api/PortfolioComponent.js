@@ -1,5 +1,5 @@
 import { Alchemy, Network } from "alchemy-sdk";
-import { BigNumber } from "ethers";
+import { BigNumber } from "@ethersproject/bignumber";
 
 export const networks = {
   1: Network.ETH_MAINNET,
